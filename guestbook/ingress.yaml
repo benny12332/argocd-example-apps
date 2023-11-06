@@ -4,8 +4,7 @@ metadata:
   name: guestbook-1
 spec:
   rules:
-  - host: guestbook-1-ui-guestbook.apps.ocp-aws.sandbox1967.opentlc.com
-    http:
+  - http:
       paths:
       - path: /
         pathType: Prefix
